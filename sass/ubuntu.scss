@@ -1,0 +1,229 @@
+body{
+	background-repeat: repeat-x;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1400px;
+	background-color: #DCC089;
+	background-image: url("../img/ground_body.png");
+}
+
+.skip-link{
+	font-family: Arial,sans-serif;
+	line-height: 1.4em;
+	color: black;
+	font-size: 0.85em;
+
+	.element-invisible{
+		clip: rect(1px,1px,1px,1px);
+		position: absolute !important;
+		text-decoration: none;
+		color: #C90016;
+	}
+
+}
+
+.page-wrapper{
+		font-family: Arial,sans-serif;
+		line-height: 1.4em;
+		color: black;
+		font-size: 0.85em;
+	.page{
+		background-color: #F6F6F6;
+		background-image: url("../img/ground_page.png");		
+		border-color: #D2D2D2;
+		margin: 29px 1em;
+		min-height: 65em;
+		min-width: 925px;
+		padding: 0.4em 1.8em 0;
+		position: relative;
+		border-radius: 8px 8px 8px 8px;
+		background-position: left top;
+		background-repeat: repeat-x;
+		border-style: outset;
+		border-width: 1px 2px 3px 1px;
+
+		.header{
+		    font-family: Arial,sans-serif;
+		    line-height: 1.4em;
+		    color: black;
+		    font-size: 0.85em;
+
+			.section-clearfix{
+				font-family: Arial,sans-serif;
+				line-height: 1.4em;
+				color: black;
+				font-size: 0.85em;
+
+				.logo{
+					background-image: url('../img/logou.png');
+					background-repeat: no-repeat;
+					float: left;
+
+					h1{
+						margin: 0;
+						min-height: 65px;
+						min-width: 325px;
+						text-indent: -9000px;
+					}
+
+					a{
+						font-size: 0.85em;
+						position: absolute;
+						margin-top: -65px;
+						padding-top: 65px;
+						vertical-align: text-bottom;
+					}
+				}
+				.region-region-header{
+				    font-family: Arial,sans-serif;
+				    line-height: 1.4em;
+				    color: black;
+				    font-size: 0.85em;
+
+					.block-block-5{
+						font-family: Arial,sans-serif;
+						line-height: 1.4em;
+						color: black;
+						font-size: 0.85em;
+
+						.content{
+						    font-family: Arial,sans-serif;
+						    line-height: 1.4em;
+						    color: black;
+						    font-size: 0.85em;
+
+						    .search{
+						    	float: none;
+								margin-left: auto;
+								width: 26em;
+								height: 1.7em;
+								background-color: #FFF;
+								border-width: 1px;
+								border-style: inset;
+								border-color: #AAA #FFF #FFF #AAA;
+								border-radius: 1em;
+						    	vertical-align: bottom;
+
+						    	fieldset{
+						    		margin: 0;
+									padding: 0;
+									border: none;
+
+						    		label{
+						    			display: none;
+						    			font-weight: bold;
+						    		}
+
+						    		.qsearch{
+						    			background-image: url("../img/search.png");
+						    			float: left;
+										margin: 0 0 1px 0;
+										padding: 2px 2px 2px 22px;
+										width: 12.4em;
+										background-color: #E5E4E5;
+										background-position: 3px 3px;
+										background-repeat: no-repeat;
+										border: 1px solid #FFF;
+										border-radius: 1em 0 0 1em;
+						    		}
+
+						    		.tsearch{
+						    			position: relative;
+										z-index: 1;
+										margin-top: 1px;
+										width: 9em;
+										background-color: transparent;
+										border: none;
+										border-left: 1px solid #B3B3B3;
+
+						    			option{
+						    				background-color: #FFF;
+											font-size: 1.2em;
+
+						    			}
+						    		}
+
+						    		.button{
+						    			position: relative;
+										z-index: 1;
+										margin-top: 1px;
+										padding: 0.1em 0 0.3em;
+										width: 2em;
+										background-color: transparent;
+										border: none;
+										border-left: 1px solid #B3B3B3;
+										cursor: pointer;
+
+						    		}
+						    	}
+						    }
+
+						    .login{
+						    	margin: 5px 0 0 auto;
+								width: 24.5em;
+								text-align: left;
+								color: #808080;
+
+						    	fieldset{
+						    		margin: 0;
+									padding: 0;
+									border: none;
+
+						    		input{
+
+						    			font-size: 1em;
+						    		}
+
+						    		label{
+						    			display: none;
+						    		}
+
+						    		.u_field{
+						    			margin-right: 10px;
+										padding: 2px 5px;
+										margin-left: 0.35em;
+										width: 6em;
+										border-width: 1px;
+										border-style: inset;
+										border-color: #AAA #FFF #FFF #AAA;
+										border-radius: 1em;
+										color: #808080;
+										font-size: 0.85em;
+						    		}
+
+						    		.p_field{
+						    			margin-right: 10px;
+										padding: 2px 5px;
+										margin-left: 0.35em;
+										width: 6em;
+										border-width: 1px;
+										border-style: inset;
+										border-color: #AAA #FFF #FFF #AAA;
+										border-radius: 1em;
+										color: #808080;
+										font-size: 0.85em;
+						    		}
+
+						    		.connect{
+						    			padding: 0 0 2px;
+										background-color: transparent;
+										border: none;
+										cursor: pointer;
+										font-size: 0.85em;
+						    		}
+
+						    		a{
+						    			text-decoration: none;
+						    			color: #C90016;
+						    		}
+
+						    	}
+						    }
+						}
+					}
+				}
+			}
+
+		}
+	}
+}

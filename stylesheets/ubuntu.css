@@ -1,0 +1,228 @@
+/* line 1, ../sass/ubuntu.scss */
+body {
+  background-repeat: repeat-x;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1400px;
+  background-color: #DCC089;
+  background-image: url("../img/ground_body.png");
+}
+
+/* line 10, ../sass/ubuntu.scss */
+.skip-link {
+  font-family: Arial,sans-serif;
+  line-height: 1.4em;
+  color: black;
+  font-size: 0.85em;
+}
+/* line 16, ../sass/ubuntu.scss */
+.skip-link .element-invisible {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  text-decoration: none;
+  color: #C90016;
+}
+
+/* line 25, ../sass/ubuntu.scss */
+.page-wrapper {
+  font-family: Arial,sans-serif;
+  line-height: 1.4em;
+  color: black;
+  font-size: 0.85em;
+}
+/* line 30, ../sass/ubuntu.scss */
+.page-wrapper .page {
+  background-color: #F6F6F6;
+  background-image: url("../img/ground_page.png");
+  border-color: #D2D2D2;
+  margin: 29px 1em;
+  min-height: 65em;
+  min-width: 925px;
+  padding: 0.4em 1.8em 0;
+  position: relative;
+  border-radius: 8px 8px 8px 8px;
+  background-position: left top;
+  background-repeat: repeat-x;
+  border-style: outset;
+  border-width: 1px 2px 3px 1px;
+}
+/* line 45, ../sass/ubuntu.scss */
+.page-wrapper .page .header {
+  font-family: Arial,sans-serif;
+  line-height: 1.4em;
+  color: black;
+  font-size: 0.85em;
+}
+/* line 51, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix {
+  font-family: Arial,sans-serif;
+  line-height: 1.4em;
+  color: black;
+  font-size: 0.85em;
+}
+/* line 57, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .logo {
+  background-image: url("../img/logou.png");
+  background-repeat: no-repeat;
+  float: left;
+}
+/* line 62, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .logo h1 {
+  margin: 0;
+  min-height: 65px;
+  min-width: 325px;
+  text-indent: -9000px;
+}
+/* line 69, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .logo a {
+  font-size: 0.85em;
+  position: absolute;
+  margin-top: -65px;
+  padding-top: 65px;
+  vertical-align: text-bottom;
+}
+/* line 77, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header {
+  font-family: Arial,sans-serif;
+  line-height: 1.4em;
+  color: black;
+  font-size: 0.85em;
+}
+/* line 83, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 {
+  font-family: Arial,sans-serif;
+  line-height: 1.4em;
+  color: black;
+  font-size: 0.85em;
+}
+/* line 89, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 .content {
+  font-family: Arial,sans-serif;
+  line-height: 1.4em;
+  color: black;
+  font-size: 0.85em;
+}
+/* line 95, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 .content .search {
+  float: none;
+  margin-left: auto;
+  width: 26em;
+  height: 1.7em;
+  background-color: #FFF;
+  border-width: 1px;
+  border-style: inset;
+  border-color: #AAA #FFF #FFF #AAA;
+  border-radius: 1em;
+  vertical-align: bottom;
+}
+/* line 107, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 .content .search fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+/* line 112, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 .content .search fieldset label {
+  display: none;
+  font-weight: bold;
+}
+/* line 117, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 .content .search fieldset .qsearch {
+  background-image: url("../img/search.png");
+  float: left;
+  margin: 0 0 1px 0;
+  padding: 2px 2px 2px 22px;
+  width: 12.4em;
+  background-color: #E5E4E5;
+  background-position: 3px 3px;
+  background-repeat: no-repeat;
+  border: 1px solid #FFF;
+  border-radius: 1em 0 0 1em;
+}
+/* line 130, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 .content .search fieldset .tsearch {
+  position: relative;
+  z-index: 1;
+  margin-top: 1px;
+  width: 9em;
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid #B3B3B3;
+}
+/* line 139, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 .content .search fieldset .tsearch option {
+  background-color: #FFF;
+  font-size: 1.2em;
+}
+/* line 146, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 .content .search fieldset .button {
+  position: relative;
+  z-index: 1;
+  margin-top: 1px;
+  padding: 0.1em 0 0.3em;
+  width: 2em;
+  background-color: transparent;
+  border: none;
+  border-left: 1px solid #B3B3B3;
+  cursor: pointer;
+}
+/* line 161, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 .content .login {
+  margin: 5px 0 0 auto;
+  width: 24.5em;
+  text-align: left;
+  color: #808080;
+}
+/* line 167, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 .content .login fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+/* line 172, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 .content .login fieldset input {
+  font-size: 1em;
+}
+/* line 177, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 .content .login fieldset label {
+  display: none;
+}
+/* line 181, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 .content .login fieldset .u_field {
+  margin-right: 10px;
+  padding: 2px 5px;
+  margin-left: 0.35em;
+  width: 6em;
+  border-width: 1px;
+  border-style: inset;
+  border-color: #AAA #FFF #FFF #AAA;
+  border-radius: 1em;
+  color: #808080;
+  font-size: 0.85em;
+}
+/* line 194, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 .content .login fieldset .p_field {
+  margin-right: 10px;
+  padding: 2px 5px;
+  margin-left: 0.35em;
+  width: 6em;
+  border-width: 1px;
+  border-style: inset;
+  border-color: #AAA #FFF #FFF #AAA;
+  border-radius: 1em;
+  color: #808080;
+  font-size: 0.85em;
+}
+/* line 207, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 .content .login fieldset .connect {
+  padding: 0 0 2px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 0.85em;
+}
+/* line 215, ../sass/ubuntu.scss */
+.page-wrapper .page .header .section-clearfix .region-region-header .block-block-5 .content .login fieldset a {
+  text-decoration: none;
+  color: #C90016;
+}
